@@ -31,6 +31,7 @@ h1{
   background:rgba(255, 255, 255, 0.9); ;
   color:#03045e ;
   transition: background-color 0.4s ease,color 0.4s ease;
+  margin: 10 auto auto auto;
 }
 button.theme{
   color: white;
