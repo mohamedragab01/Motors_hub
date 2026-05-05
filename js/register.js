@@ -1,10 +1,10 @@
-const toggleBtn = document.querySelector('.toggle-btn');
 const body = document.body;
 const currentTheme=localStorage.getItem('theme');
+const btn=document.querySelector('.theme');
 
-toggleBtn.onclick=function(){
+function switchTheme(){
     body.classList.toggle('dark');
-    toggleBtn.classList.toggle('active');
+    localStorage.setItem('theme','dark');
     if(body.classList.contains('dark')){
         localStorage.setItem('theme','dark');
     }
@@ -16,10 +16,12 @@ toggleBtn.onclick=function(){
 window.onload=function(){
     if(currentTheme==='dark'){
         document.body.classList.add('dark');
-        toggleBtn.classList.toggle('active');
     }
 }
 
+if(btn){
+    btn.onclick=switchTheme;
+}
 
 $("#registerForm").submit(function (e) {
 
