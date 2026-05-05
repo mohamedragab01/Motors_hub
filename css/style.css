@@ -122,7 +122,7 @@ nav button {
 
 }
 
-button.theme{
+.theme{
   color: white;
   margin:0 20px;
   border-radius: 25px;
@@ -130,7 +130,7 @@ button.theme{
   transition: background-color 0.4s ease,color 0.4s ease;
 }
 
-.dark button.theme{
+.dark .theme{
     color: white;
     background-color:#007bb0 ;
     transition: background-color 0.4s ease,color 0.4s ease;
