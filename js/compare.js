@@ -44,6 +44,24 @@ const carData={
         drivetrain:	"4MATIC Intelligent All-Wheel Drive",
         price:"6,000,000 EGP"
     },
+    "320i":{
+        engine:	"2.0L 4-Cylinder BMW TwinPower Turbo",
+        hp:	"184 hp",
+        torque:	"300 Nm",
+        transmission:	"8-Speed Steptronic Sport Transmission",
+        acceleration: "7.4 Seconds",
+        drivetrain:	"Rear-Wheel Drive (RWD)",
+        price:"3,500,000 EGP"
+    },
+    "M5":{
+        engine:	"4.4L V8 with M Hybrid System (Plug-in Hybrid)",
+        hp:	"717 hp",
+        torque:	"1,000 Nm",
+        transmission:	"8-Speed M Steptronic with Drivelogic",
+        acceleration: "3.5 Seconds",
+        drivetrain:	"M xDrive (AWD with 2WD Drift Mode)",
+        price:"13,000,000 EGP"
+    },
 };
 
 function updateCompare(){
