@@ -29,8 +29,10 @@ h1{
 }
 main{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
 }
 .alform{
   background:rgba(255, 255, 255, 0.9); ;
