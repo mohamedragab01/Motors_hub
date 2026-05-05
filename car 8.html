@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style_1.css">
+        <link rel="stylesheet" href="css/theme.css">
+        <title>Mercedes-AMG S65</title>
+    </head>
+    <body>
+        <header>
+             <nav>
+                <a href="index_1.html">
+                    <button>Motors_HUB</button>
+                </a>  
+                <div class="logos">                 
+                    <a href="index_1.html">
+                        <img src="images/logo.jpg" alt="Logo" class="logo">
+                    </a>
+                    <a href="index_1.html">
+                        <img src="images/mlogo.jpg" alt="Logo" class="logo">
+                    </a>
+                </div>
+                <div class="button">
+                    <a href="All models.html">
+                         <button>All_Models</button>
+                    </a>
+                    <a href="favorites.html">
+                         <button>Favorites</button>
+                    </a>
+                    <a href="compare.html">
+                         <button>Compare</button>
+                    </a>
+                    <a href="drive test.html">
+                        <button>Drive_Test</button>
+                    </a>
+                    <a href="contact_us.html" title="Contact">
+                        <button>Contact_Us</button>
+                    </a>
+                        <a href="login.html"  title="Login">
+                        <img src="images/login.jpg" alt="Logo" class="logo">
+                    </a>
+                </div>
+                <button type="button" class="theme" onclick="switchTheme()">theme</button>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="package">
+                    <div class="gallery">
+                        <div class="main">
+                            <img id="current" src="photos/car 8/BMW ix M60.jpg">
+                            <button class="btn prev" onclick="changeSlide(-1)">&#10094</button>
+                            <button class="btn next" onclick="changeSlide(1)">&#10095</button>
+                        </div>
+                        <diV class="thumb">
+                            <img class="product active" src="photos/car 8/BMW ix M60.jpg" onclick="setMainImage(this)">
+                            <img class="product" src="photos/car 8/1.jpg" onclick="setMainImage(this)">
+                            <img class="product" src="photos/car 8/2.jpg" onclick="setMainImage(this)">
+                            <img class="product" src="photos/car 8/3.jpg" onclick="setMainImage(this)">
+                            <img class="product" src="photos/car 8/4.jpg" onclick="setMainImage(this)">
+                            <img class="product" src="photos/car 8/5.jpg" onclick="setMainImage(this)">
+                            <img class="product" src="photos/car 8/6.jpg" onclick="setMainImage(this)">
+                        </diV>
+                    </div>
+                    <div class="info">
+                        <P class="car-data">BMW iX M60</P>
+                        <P class="car-data-price">3,500,000 EGP</P>
+                        <button type="button"><a href="https://i-brochures.bmw.ie/ix/">Download Official BMW iX M60 Brochure (PDF)</a></button>
+                        <button type="button"><a href="drive test.html">Book a drive test</a></button>
+                    </div>
+                </div>
+                <div class="paragraph">
+                    <h3 class="Description">Short Description</h3>
+                    <p class="text">The BMW iX M60 is the most powerful electric SUV ever built by BMW M. 
+                        It blends the innovative power of BMW i with the high-performance DNA of BMW M. 
+                        With over 600 horsepower and a specialized M-tuned suspension, 
+                        the iX M60 offers a breathtaking driving experience, 
+                        launching this luxury lounge from 0 to 100 km/h in supercar territory.
+                    </p>
+                </div>
+
+                <h2 class="table-title">Technical Specifications</h2>
+                <table>
+                    <thead>
+                        <tr class="head">
+                            <th>Feture</th>
+                            <td>Specification</td>
+                        </tr>
+                    </thead>
+
+                    <tr>
+                        <th class="feature name">Engine</th>
+                        <td class="feature function">M-Specific Dual Electric Motors</td>
+                    </tr>
+
+                    <tr>
+                        <th class="feature name">Horsepower</th>
+                        <td class="feature function">610 hp</td>
+                    </tr>
+
+                    <tr>
+                        <th class="feature name">Torque</th>
+                        <td class="feature function">1,100 Nm</td>
+                    </tr>
+
+                    <tr>
+                        <th class="feature name">Transmission</th>
+                        <td class="feature function">Single-Speed Automatic</td>
+                    </tr>
+
+                    <tr>
+                        <th class="feature name">Acceleration (0-100 km/h)</th>
+                        <td class="feature function">3.8 Seconds</td>
+                    </tr>
+
+                    <tr>
+                        <th class="feature name">Drivetrain</th>
+                        <td class="feature function">Intelligent M xDrive (Electric All-Wheel Drive)</td>
+                    </tr>
+                </table>
+
+                <h2 class="table-title">Luxury & Performance Highlights</h2>
+
+                <table>
+                    <thead>
+                        <tr class="head">
+                            <th>Feature</th>
+                            <td>Description</td>
+                        </tr>
+                    </thead>
+
+                    <tr>
+                        <th class="feature name">M-Specific Suspension</th>
+                        <td class="feature function">Dual-axle air suspension with M-specific tuning for maximum agility</td>
+                    </tr>
+
+                    <tr>
+                        <th class="feature name">M Sport Brakes</th>
+                        <td class="feature function">High-performance blue M brake calipers as standard</td>
+                    </tr>
+
+                    <tr>
+                        <th class="feature name">Sound Design</th>
+                        <td class="feature function">BMW IconicSounds Electric by Hans Zimmer, specifically tuned for M</td>
+                    </tr>
+
+                    <tr>
+                        <th class="feature name">Launch Control</th>
+                        <td class="feature function">Delivers a massive 1,100 Nm of torque instantly for explosive starts</td>
+                    </tr>
+                    
+                </table>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-top">
+                <div>
+                    <p class="brand-name">MOTORS HUB</p>
+                    <p class="brand-tagline">The Ultimate Driving Experience</p>
+                </div>
+                <div class="social-row">
+                    <a class="social-btn" href="https://bmw.com" target="_blank">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" fill="none" stroke="#0a0a0a" stroke-width="1.5"/></svg>
+                        BMW.com
+                    </a>
+                    <a class="social-btn" href="https://facebook.com" target="_blank">
+                        <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        Facebook
+                    </a>
+                    <a class="social-btn" href="https://instagram.com" target="_blank">
+                        <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="#0a0a0a"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        Instagram
+                    </a>
+                    <a class="social-btn" href="https://wa.me/YOUR_NUMBER" target="_blank">
+                        <svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                        WhatsApp
+                    </a>
+                    <a class="social-btn" href="https://x.com" target="_blank">
+                        <svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4 4 20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+                        X
+                    </a>
+                </div>
+            </div>
+ 
+            <div>
+                <p class="col-title">Navigation</p>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="All models.html">Models</a></li>
+                    <li><a href="favorites.html">Favorites</a></li>
+                    <li><a href="compare.html">Compare</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                </ul>
+            </div>
+ 
+        </footer>
+        <script src="js/gallery.js"></script>
+        <script src="js/themes.js"></script>
+    </body>
+</html>
+    
