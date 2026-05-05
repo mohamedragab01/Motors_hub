@@ -134,6 +134,7 @@ button.theme{
 .dark{
     button.theme{
     color: white;
+    width: fit-content;
     background-color:#007bb0 ;
     transition: background-color 0.4s ease,color 0.4s ease;
 }
