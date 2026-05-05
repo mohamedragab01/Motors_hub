@@ -49,6 +49,29 @@ nav button {
 
 }
 
+button.theme{
+  color: white;
+  margin:0 20px;
+  border-radius: 25px;
+  background: #00adef;
+  transition: background-color 0.4s ease,color 0.4s ease;
+}
+
+.dark-theme{
+  background: #18191a;
+  transition: background-color 0.4s ease,color 0.4s ease;
+button.theme{
+  color: white;
+  background-color:#007bb0 ;
+   transition: background-color 0.4s ease,color 0.4s ease;
+}
+h2{
+    color: #40a9ff;
+     transition: background-color 0.4s ease,color 0.4s ease;
+}
+}
+
+
 
 header {
     /* background-image:url("images/slid2.png"); */
