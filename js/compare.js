@@ -62,6 +62,24 @@ const carData={
         drivetrain:	"M xDrive (AWD with 2WD Drift Mode)",
         price:"13,000,000 EGP"
     },
+    "X5":{
+        engine:	"4.4L V8 Twin-Turbocharged (S63)",
+        hp:	"575 hp (X5 M) / 617 hp (X5 M Competition)",
+        torque:	"750 Nm",
+        transmission:"8-Speed M Steptronic Automatic",
+        acceleration: "3.8 Seconds (Competition)",
+        drivetrain:	"xDrive Intelligent All-Wheel Drive",
+        price:"6,000,000 EGP"
+    },
+    "M60":{
+        engine:	"M-Specific Dual Electric Motors",
+        hp:	"516 hp",
+        torque:	"765 Nm",
+        transmission:"Single-Speed Automatic",
+        acceleration: "4.6 Seconds",
+        drivetrain:	"Intelligent M xDrive (Electric All-Wheel Drive",
+        price:"7,800,000 EGP"
+    },
 };
 
 function updateCompare(){
